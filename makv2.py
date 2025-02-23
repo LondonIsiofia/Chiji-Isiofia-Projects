@@ -15,7 +15,7 @@ import pyaudio
 model = Model("/Users/london/C/Python Path/json/vosk-model-en-us-0.22-lgraph")
 recognizer = KaldiRecognizer(model, 16000)
 
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='your open ai key')
 
 engine = pyttsx3.init()
 
@@ -62,7 +62,7 @@ def listen(silence_threshold = 3):
         return None
 
 def makv2():
-    speak("Hello lord London, what can I do for you?")
+    speak("Hello Lord London, what can I do for you?")
     while True:
         query = listen(silence_threshold = 3)
         if query is None:
