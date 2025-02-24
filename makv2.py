@@ -12,7 +12,7 @@ import pyaudio
 #make it access the internet
 #make it able to open applications
 
-model = Model("/Users/london/C/Python Path/json/vosk-model-en-us-0.22-lgraph")
+model = Model("path-to-openai-model")
 recognizer = KaldiRecognizer(model, 16000)
 
 client = OpenAI(api_key='your open ai key')
