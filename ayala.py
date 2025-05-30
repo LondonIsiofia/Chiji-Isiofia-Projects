@@ -1,3 +1,5 @@
+#An facial recognition software with more features to come!
+
 import threading
 import cv2
 import cv2.data
