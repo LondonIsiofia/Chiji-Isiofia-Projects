@@ -1,3 +1,5 @@
+#An AI assistant that utilizes Open AI's API, Wikipedia, and more!
+
 import time
 import pyttsx3
 from openai import OpenAI
